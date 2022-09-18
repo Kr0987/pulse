@@ -1,0 +1,83 @@
+.advantages__blocks {
+    display: flex;
+    margin: 65px 48px 0 48px;
+    padding-bottom: 79px;
+    justify-content: row;
+    align-items: center;
+}
+
+.first__block {
+    min-width: 239px;
+    margin-right: 98px;
+    img{
+        display: block;
+        min-width: 70px;
+        margin: 0 auto;
+        margin-bottom: 38px;
+        
+    }
+   
+}
+
+.second__block {
+    min-width: 243px;
+    margin-right: 95px;
+    img{
+        display: block;
+        min-width: 70px;
+        margin: 0 auto;
+        margin-bottom: 42px;
+        
+    }
+    
+}
+
+.third__block {
+    min-width: 247px;
+    
+    img{
+        display: block;
+        min-width: 70px;
+        margin: 0 auto;
+        margin-bottom: 38px;
+        
+    }
+    
+}
+
+.advantages__header {
+    color:#000 ;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    
+}
+
+.descr__adv {
+    width: 239px;
+    color:#000 ;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+       
+}
+
+.running {
+    color:red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.advantages {
+    padding-top: 72px;
+    &__icon{
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+}

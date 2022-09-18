@@ -1,0 +1,26 @@
+@import 'base/variables';
+@import '../../src/sass/base/animations';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 950px; /*весь контент на сайте занимает 10 колонок=950 пикселей(мы измерили) и мы создали для всего контента глобальный контейнер*/
+    margin: 0 auto; /*контейнер вырав по центру*/
+}
+
+@import '../blocks/promo';
+@import '../blocks/header';
+@import '../blocks/buttons';
+@import 'base/media';
+@import '../blocks/advantages_blocks';
+@import '../blocks/consultation';
+@import '../blocks/forms';
+@import '../blocks/carousel';
+@import '../blocks/catalog';
+@import '../blocks/feedback';
+@import '../blocks/footer';
+@import '../blocks/modal';
+@import '../blocks/pageup';
+

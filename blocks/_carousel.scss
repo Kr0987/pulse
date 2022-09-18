@@ -1,0 +1,41 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+       
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;   
+        background-color: #fff; 
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .next {
+        right: -66px;
+        left: auto;
+    }
+    .tns-item { //каждый отдельный слайд, котор есть в слайдере (см консоль разработчика)
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+    }
+    .tns-nav { //обертка для точек слайдера (см консоль разработчика)
+        button {
+            background-color: rgb(255, 0, 0);
+        }
+        .tns-nav-active { //активная кнопка (точка) котор показывает текущий слайд (см консоль разработчика)
+            background-color: rgb(64, 0, 255);
+        } 
+    }
+}
+
